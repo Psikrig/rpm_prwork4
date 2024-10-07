@@ -1,0 +1,132 @@
+.backgroung
+{
+    background-image: url("../images/i.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.header
+{
+    position: absolute;
+    top: 0;
+    width: 1420px;
+    height: 130px;
+}
+.logo
+{
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    left: 50px;
+    top: 25px;
+}
+.contact
+{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    right: 50px;
+    top: 50px;
+}
+.prodect
+{
+    position: absolute;
+    height: auto;
+    width: 50px;
+    right: 200px;
+    top: 50px;
+}
+
+.footer
+{
+    position: absolute;
+    top: 570px;
+    width: 1520px;
+    height: 150px;
+}
+.center
+{
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+
+}
+.center_top
+{
+    position: absolute;
+    top: 200px;
+    left: 215px;
+    height: auto;
+    width: auto;
+
+}
+.center_bottom
+{
+    position: absolute;
+    bottom: 70px;
+    right: 130px;
+    height: auto;
+    width: auto;
+
+}
+.social_media
+{
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 0px;
+    left: 50px;
+}
+.fot_left
+{    
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    right: 50px;
+    bottom: 0px;
+
+    transform: rotate(90deg);
+}
+img.social
+{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+}
+p.scroll
+{
+    font-size: 15px;
+    color: white;
+    font-family: 'Segoe UI', Roboto; 
+
+    
+}
+p.logo_text
+{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Roboto;  
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+p.big_text
+{
+    font-size: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Roboto;
+}
+p.smal_text
+{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Roboto;
+}
+
