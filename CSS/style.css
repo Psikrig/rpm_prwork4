@@ -5,18 +5,32 @@
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    position: absolute;
+    display: inline-flex;
+    justify-content: space-between safe;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+}
+.right_flex_header
+{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 .header
 {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
     top: 0;
     width: 1420px;
     height: 130px;
 }
 .logo
 {
-    position: absolute;
     height: 50px;
     width: 60px;
     left: 50px;
@@ -24,7 +38,7 @@
 }
 .contact
 {
-    position: absolute;
+    
     height: auto;
     width: 50px;
     right: 50px;
@@ -32,7 +46,7 @@
 }
 .prodect
 {
-    position: absolute;
+    
     height: auto;
     width: 50px;
     right: 200px;
@@ -41,41 +55,57 @@
 
 .footer
 {
-    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
     top: 570px;
     width: 1520px;
     height: 150px;
 }
 .center
 {
-    width: 700px;
-    height: 600px;
-    position: absolute;
-    top: 10px;
-    left: 400px;
+    width: 400px;
+    height: 800px;
+    align-self: center;
+    display: inline-flex;
+    justify-content: center safe;
+    flex-wrap: nowrap;
+    flex-direction: column;
 
 }
-.center_top
-{
-    position: absolute;
-    top: 200px;
-    left: 215px;
-    height: auto;
+.center_center
+{    
     width: auto;
+    height: auto;
+    align-self: center;
+    vertical-align: top;
+}
+.center_top
+{ 
+    
+    height: 50px;
+    width: 100PX;
 
 }
 .center_bottom
 {
-    position: absolute;
-    bottom: 70px;
-    right: 130px;
-    height: auto;
-    width: auto;
 
+    height: 50px;
+    width: 110px;
+    align-self: self-end;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.text
+{
+    width: auto;
+    height: 20px;
 }
 .social_media
 {
-    position: absolute;
     height: 150px;
     width: 50px;
     top: 0px;
@@ -83,12 +113,8 @@
 }
 .fot_left
 {    
-    position: absolute;
     width: 150px;
     height: 20px;
-    right: 50px;
-    bottom: 0px;
-
     transform: rotate(90deg);
 }
 img.social
@@ -102,6 +128,7 @@ p.scroll
 {
     font-size: 15px;
     color: white;
+    text-align: right;
     font-family: 'Segoe UI', Roboto; 
 
     
@@ -119,9 +146,10 @@ p.logo_text
 p.big_text
 {
     font-size: 200px;
-    text-align: center;
     color: white;
     font-family: 'Segoe UI', Roboto;
+    align-self: center;
+    vertical-align: middle;
 }
 p.smal_text
 {
